@@ -12,3 +12,5 @@
 
 2020-06-24
 
+### Preview
+http://htmlpreview.github.io/?https://github.com/Yuuma-ujimoto/Design-labo/blob/master/design-test-no01/index.html
