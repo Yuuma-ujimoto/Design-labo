@@ -1,9 +1,11 @@
 @charset "utf-8";
 
 :root{
-  --main-bg-color: #2c3e50;
-  --sub-bg-color:;
+  --main-bg-color: #ffda79;
+  --sub-bg-color:#d1ccc0;
+  --boder-color : #84817a;
   --logo-color:#ecf0f1;
+  --string-color:#1e272e
 }
 body{
   margin:0;
@@ -12,12 +14,14 @@ body{
 #wrapper{
   height: 1000px;
 }
+
 .header-wrapper{
   width: 100%;
   height: 200px;
   display: flex;
   background-color: var(--main-bg-color);
-
+  box-sizing: border-box;
+  border-bottom: solid 5px var(--boder-color);
 }
 
 .logo-wrapper{
@@ -31,7 +35,7 @@ body{
   width: 200px;
   height: 100px;
   background-color: var(--logo-color);
-
+  
 }
 
 .menu-wrapper{
@@ -43,19 +47,34 @@ body{
 .side-menu-wrapper{
   width: 40%;
   height: 100%;
-  background-color: #0000ff;
+  background-color: var(--main-bg-color);
   display: flex;
   justify-content: flex-end;
 }
 .side-menu-box{
   width: 50%;
   height: 100%;
-  background-color: #00ff00;
+  box-sizing: border-box;
+  border-right: solid 2px var(--boder-color);
+  background-color: var(--sub-bg-color);
   display: flex;
+  justify-content: flex-end;
+}
+
+.nav-contents{
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  
+}
+.nav-contents>a{
+  color: var(--string-color);
 }
 
 .main-menu-wrapper{
   width: 60%;
   height: 100%;
-  background-color: #ff0000;
+  background-color: var(--sub-bg-color);
+
 }
