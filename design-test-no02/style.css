@@ -11,9 +11,8 @@ body{
   margin:0;
   background-color:var(--main-bg-color);
   font-family: 'Poppins', sans-serif;
-
+  line-height: 1.75;
 }
-
 #wrapper{
   height: 1000px;
 }
@@ -72,13 +71,29 @@ body{
   padding-left: 20px;
 }
 
+.nav-top-text{
+  color: var(--string-color);
+  font-size: 36px;
+  margin-left: 15px;
+}
+
 .nav-wrapper{
   display: flex;
   
 }
 
+
+/*ここあとでliにクラス振り分ける*/
+.nav-wrapper>ul>li{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+
 .nav-text{
-  color: var(--boder-color);
+  color: var(--string-color);
   font-size: 24px;
   text-decoration: none;
   list-style: none;
