@@ -137,3 +137,15 @@ header{
   width: 90%;
 }
 
+.contents-side-img-box{
+  width: 50%;
+  background-size: cover;
+}
+
+.side-img-type1{
+  background-image: url("./img/unsplash01.jpg");
+}
+
+.contents-side-text-box{
+  width: 50%;
+}
