@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+  margin:0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+section{
+  width: 350px;
+  height: 350px;
+  margin:25px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border:solid 2px black;
+}
+
+.section1 .img-hover-test-box{
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.section1 img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition:1s all;
+
+}
+
+.section1 img:hover{
+  transform: scale(1.1,1.1);
+  transition:.3s ease-in-out;
+}
