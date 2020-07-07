@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>css sand box</title>
   <link rel="stylesheet" type="text/css" href="./style.css">
-
 </head>
 <body>
   <section class="section1">
@@ -30,12 +29,9 @@
     <p>選択したときに文字色と背景色を変更</p>
   </section>
   
-  <section class="section3">
-    <div class="drag-and-drop-box">
+  <section class="section3" id="section3">
       <img src="./img/icon.png" width="50px" height="50px" id="icon">
-    </div>
-    <p>ドラッグアンドドロップ試作(ドラッグ時に追従は出来るようになったが離したときのイベントをまだ実装してない)</p>
-    <script type="text/javascript" src="script.js"></script>
+      <script type="text/javascript" src="script.js"></script>
   </section>
 
   <section class="section4">
@@ -45,6 +41,16 @@
         <p>子要素</p>
       </div>
       <p>（疑似的にだが）子要素のホバーイベントに応じて親要素を変更する</p>
+    </div>
+  </section>
+  <section class="section5">
+    <div class="atag-box">
+      <a class="hover-underline">
+        ホバー時に下線が引かれるリンク
+      </a>
+      <a class ="hover-background">
+        ホバー時に背景が変わるリンク
+      </a>
     </div>
   </section>
 </body>
