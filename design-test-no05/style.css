@@ -97,3 +97,33 @@ section{
 .section5 .hover-background:hover{
   background-color: #95a5a6;
 }
+
+.section6 .digital-num{
+  width: 75px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section6 .digital-num .vertical-num{
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6 .num2,.section6 .num3,.section6 .num5,.section6 .num6{
+  width: 10px;
+  height: 55px;
+  background:orange;
+  box-sizing: border-box;
+  border:solid 1px black;
+}
+
+.section6 .num1,.section6 .num4,.section6 .num7{
+  height: 10px;
+  width: 55px;
+  background: orange;
+  box-sizing: border-box;
+  border:solid 1px black;
+}
